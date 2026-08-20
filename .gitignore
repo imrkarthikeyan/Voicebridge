@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+backend/target/
+frontend/node_modules/
+frontend/dist/
+
+# Runtime uploads & dynamic files
+uploads/
+backend/uploads/
+
+# Build outputs
+target/
+dist/
+
+# Environment files
+.env
+*.env
+!.env.example
+
+# IDE & OS files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+backend/*.log
+frontend/*.log
